@@ -4,20 +4,20 @@ public class Program
 {
     public static void Main(/* string model, int speed  */)
     {
-        Car car = new Car();
-        Console.WriteLine("What's your favorite Car?");
-        car.model = Console.ReadLine();
+        Console.WriteLine("Enter car model:");
+        string model = Console.ReadLine() ?? string.Empty;
+        Car car = new Car(model);
 
-        Console.WriteLine($"Let's take a {car.model} for a spin!");
+        Console.WriteLine($"Let's take a {car.Model} for a spin!");
         car.Accelerate();
-        Console.WriteLine($"Speed is at: {car.speed} miles per hour!");
+        Console.WriteLine($"Speed: {car.Speed}");
         
         car.Accelerate();
-        Console.WriteLine($"Speed is at: {car.speed} miles per hour!");
+        Console.WriteLine($"Speed: {car.Speed}");
         
         car.Brake();
         Console.WriteLine($"Speed is at: 70 nah im just kidding pump the breaks");
-        Console.WriteLine($"Speed: {car.speed}");
+        Console.WriteLine($"Speed: {car.Speed}");
         
 
 

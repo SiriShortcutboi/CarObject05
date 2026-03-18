@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Program",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/CarObjectO5/bin/Debug/net10.0/CarObjectO5.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CarObjectO5",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}

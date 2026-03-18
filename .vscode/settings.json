@@ -1,3 +1,4 @@
 {
-    "dotnet.defaultSolution": "CarObjectO5.sln"
+    "dotnet.defaultSolution": "CarObjectO5.sln",
+    "terminal.integrated.cwd": "${workspaceFolder}/CarObjectO5"
 }
